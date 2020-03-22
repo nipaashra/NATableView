@@ -18,8 +18,8 @@ NATableView is a common structure of TableView Datasource and Delegate Methods.
     }
 
 # Description:
-  - Items is list of array which is model of data
-  - Create custom datasource and delegate to the pass to the real.
+  - Items are list of array which is model of data
+  - Create custom datasource and delegate, pass to the real.
   
 
 
