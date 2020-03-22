@@ -8,6 +8,8 @@ protocol CellDidSelectRowProtocol{
 
 extension CellDidSelectRowProtocol {
     func didSelectRow(dataTypeDM:DataTypeDM, indexpath:IndexPath){}
+    
+    // commit
 }
 
 
