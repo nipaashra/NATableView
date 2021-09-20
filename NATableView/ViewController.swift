@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserInfo:dataTypeProtocol{
+class UserInfo:DataTypeProtocol{
     var imgUser: UIImage?
     var name: String = ""
     init(){
@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         self.items.append(DataTypeDM.init(mType: UserInfo.init(imgUser: UIImage(named: "doll2")!, name: "Krish"), reUseId: "UserInfoTableViewCell"))
         self.items.append(DataTypeDM.init(mType: UserInfo.init(imgUser: UIImage(named: "doll3")!, name: "Yan"), reUseId: "UserInfoTableViewCell"))
         self.prepareUI()
+        print("Hello")
     }
 
 
