@@ -13,7 +13,7 @@ protocol UserInfoTableViewCellProtocol:ViewControllerTableViewCellDelegatable {
     func btnDeleteClicked(sender:UIButton)
 }
 
-class UserInfoTableViewCell: UITableViewCell, cellTypeProtocol {
+class UserInfoTableViewCell: UITableViewCell, CellTypeProtocol {
     @IBOutlet weak var imgUser: UIImageView!
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var btnDelete: UIButton!
