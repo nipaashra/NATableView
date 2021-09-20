@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         self.items.append(DataTypeDM.init(mType: UserInfo.init(imgUser: UIImage(named: "doll3")!, name: "Yan"), reUseId: "UserInfoTableViewCell"))
         self.prepareUI()
         print("hello")
+        print("Hello")
     }
 
 
